@@ -1,0 +1,52 @@
+/* color config */
+
+[background-color="primary"] {
+  background-color: var(--primary);
+  color: var(--lightfont);
+}
+
+[background-color="secondary0"] {
+  background-color: var(--secondary0);
+  color: var(--lightfont);
+}
+
+[background-color="secondary1"] {
+  background-color: var(--secondary1);
+  color: var(--lightfont);
+}
+
+[background-color="secondary2"] {
+  background-color: var(--secondary2);
+  color: var(--lightfont);
+}
+
+[background-color="secondary3"] {
+  background-color: var(--secondary3);
+  color: var(--lightfont);
+}
+
+[background-color="secondary4"] {
+  background-color: var(--secondary4);
+  color: var(--lightfont);
+}
+
+/* header */
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 800;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.4);
+  padding: 10px 40px;
+  font-size: 20px
+}
+
+.header * {
+  float: left;
+  display: inline-block;
+}
+
+.header .logo {
+  font-family: logoFont;
+  font-size: 50px;
+}

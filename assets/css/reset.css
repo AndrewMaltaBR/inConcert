@@ -1,0 +1,41 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+    font-family: logoFont;
+    src: url("../fonts/AcryleScript_PersonalUse.ttf");
+}
+
+/* pallete */
+
+:root {
+  --primary: #29526F;
+  --secondary0: #193447;
+  --secondary1: #2F2F2F;
+  --secondary2: #4F4F4F;
+  --secondary3: #AE6239;
+  --secondary4: #AE8D39;
+  --lightfont: #EEEEEE;
+  --darkfont: #1D1D1D;
+}
+
+/* reset */
+
+* {
+  font-family: 'Roboto',sans-serif;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: var(--secondary1);
+}
