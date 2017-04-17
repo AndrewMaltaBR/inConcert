@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <main class="content">
+    <main class="main">
+
       <header class="header" background-color="primary">
-        <div class="logo">
-          inConcert
-        </div>
+        <div class="menu-btn"><i class="fa fa-bars"></i></div>
+        <div class="logo">inConcert</div>
       </header>
 
       <aside class="menu">
@@ -22,6 +22,17 @@
         <a href="#">Sua agenda</a>
         <a href="#">Configurações</a>
       </aside>
+
+      <article class="content">
+
+        <section class="card">
+          Ohayooou sz
+        </section>
+
+        <section class="card">
+          Ohayooou sz
+        </section>
+      </article>
     </main>
   </body>
 </html>
