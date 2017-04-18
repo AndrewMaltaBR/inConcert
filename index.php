@@ -26,12 +26,23 @@
       <article class="content">
 
         <section class="card">
-          Ohayooou sz
+          <header class="card-header">
+            <div class="title">Equipe AnimeGO!</div>
+            <button class="btn btn-follow"><i class="fa fa-check"></i>&nbsp;&nbsp;Seguindo</button>
+          </header>
+          <div class="card-body"><img src="assets/img/animego.jpg" /></div>
+          <footer class="card-footer">Unoesc</footer>
         </section>
 
         <section class="card">
-          Ohayooou sz
+          <header class="card-header">
+            <div class="title">Central de eventos Chapecó</div>
+            <button class="btn btn-follow"><i class="fa fa-plus"></i>&nbsp;&nbsp;Seguir</button>
+          </header>
+          <div class="card-body"><img src="assets/img/orquestra.jpg" /></div>
+          <footer class="card-footer">Unoesc</footer>
         </section>
+
       </article>
     </main>
   </body>
