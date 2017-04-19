@@ -37,7 +37,7 @@
           <footer class="card-footer">
             <div class="title">AnimeGO!</div>
             <div class="options">
-              <button class="btn rounded option"><i class="fa fa-heart-o"></i>&nbsp;32.156</button>
+              <button class="btn rounded option"><i class="fa fa-heart-o"></i>&nbsp;321.544</button>
               <button class="btn rounded option"><i class="fa fa-comments"></i>&nbsp;432</button>
               <button class="btn rounded option"><i class="fa fa-share"></i>&nbsp;432</button>
             </div>
