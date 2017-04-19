@@ -36,7 +36,7 @@
   position: fixed;
   width: 100%;
   z-index: 800;
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.3);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.4);
   padding: 5px 30px;
   top: 0;
   font-size: 20px
@@ -59,11 +59,13 @@
   background: transparent;
   color: inherit;
   cursor: pointer;
-  border: 1px solid var(--lightfont);
   border-radius: 4px;
   padding: 5px 10px;
 }
 
+.btn.bordered {
+  border: 1px solid var(--lightfont);
+}
 
 /* menu */
 
@@ -81,7 +83,6 @@
 
 .menu-btn {
   font-size: 0px;
-  margin: 15px 20px 15px 0px;
   cursor: pointer;
   transition: all 200ms ease-in-out;
   -webkit-transition: all 200ms ease-in-out;
@@ -149,9 +150,38 @@
   float: right;
 }
 
-.card .card-header .title {
+.card .card-header .profile {
   float: left;
-  padding: 5px 10px;
+  padding: 7px 10px;
+  width: calc(100% - 160px);
+}
+
+.card .card-header .profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card .card-footer .title {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.card .card-footer .options {
+  float: right;
+  padding: 7px 10px;
+  width: 100%;
+}
+
+.card .card-footer .options .option {
+  float: right;
+  width: calc(100% / 3);
+  padding: 0;
 }
 
 @media screen and (max-width: 1080px) {
@@ -168,6 +198,7 @@
   }
 
   .menu-btn {
+    margin: 15px 20px 15px 0px;
     font-size: 25px;
   }
 
