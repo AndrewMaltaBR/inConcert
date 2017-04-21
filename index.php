@@ -4,9 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>inConcert</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   </head>
   <body>
     <main class="main">
@@ -25,43 +28,18 @@
 
       <article class="content">
 
-        <section class="card">
-          <header class="card-header">
-            <div class="profile-img" style="background-image: url('assets/img/profile-1.jpg')"></div>
-            <div class="profile">Equipe AnimeGO!</div>
-            <button class="btn bordered btn-follow"><i class="fa fa-check"></i>&nbsp;&nbsp;Seguindo</button>
-          </header>
-          <div class="card-body">
-            <img src="assets/img/animego.jpg" />
-          </div>
-          <footer class="card-footer">
-            <div class="title">AnimeGO!</div>
-            <div class="options">
-              <button class="btn rounded option"><i class="fa fa-heart-o"></i>&nbsp;321.544</button>
-              <button class="btn rounded option"><i class="fa fa-comments"></i>&nbsp;432</button>
-              <button class="btn rounded option"><i class="fa fa-share"></i>&nbsp;432</button>
-            </div>
-          </footer>
-        </section>
-
-        <section class="card">
-          <header class="card-header">
-            <div class="profile-img" style="background-image: url('assets/img/profile-2.jpg')"></div>
-            <div class="profile">Centro de eventos Chapecó</div>
-            <button class="btn bordered btn-follow"><i class="fa fa-plus"></i>&nbsp;&nbsp;Seguir</button>
-          </header>
-          <div class="card-body"><img src="assets/img/orquestra.jpg" /></div>
-          <footer class="card-footer">
-            <div class="title">Orquestra de câmara de  San Diego</div>
-            <div class="options">
-              <button class="btn rounded option"><i class="fa fa-heart-o"></i>&nbsp;32.156</button>
-              <button class="btn rounded option"><i class="fa fa-comments"></i>&nbsp;432</button>
-              <button class="btn rounded option"><i class="fa fa-share"></i>&nbsp;432</button>
-            </div>
-          </footer>
-        </section>
-
       </article>
+
+      <div class="popup">
+        <div class="popup-area">
+          <header class="popup-header">
+
+          </header>
+        </div>
+      </div>
+
     </main>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

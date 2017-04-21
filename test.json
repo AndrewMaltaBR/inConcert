@@ -1,0 +1,50 @@
+[
+	{
+		"profile": {
+			"img":"profile-1.jpg", 
+			"name":"Equipe AnimeGO!", 
+			"follow":true, 
+			"publicity": false
+		}, 
+		"event": {
+			"title":"AnimeGO!", 
+			"img":"animego.jpg", 
+			"shares":32, 
+			"comments": 56, 
+			"likes":102, 
+			"liked":true
+		}
+	},
+	{
+		"profile": {
+			"img":"profile-2.jpg", 
+			"name":"Centro de eventos Chapecó", 
+			"follow":false, 
+			"publicity": true
+		}, 
+		"event": {
+			"title":"Orquestra de câmara de  San Diego", 
+			"img":"orquestra.jpg", 
+			"shares":32, 
+			"comments": 56, 
+			"likes":102, 
+			"liked":true
+		}
+	},
+	{
+		"profile": {
+			"img":false, 
+			"name":"Oh o gaiz", 
+			"follow":false, 
+			"publicity": true
+		}, 
+		"event": {
+			"title":"Conseguiu ver?", 
+			"img":"orquestra.jpg", 
+			"shares":32, 
+			"comments": 56, 
+			"likes":102, 
+			"liked":true
+		}
+	}
+]

@@ -107,6 +107,7 @@
 /* content */
 
 .content {
+  position: absolute;
   width: calc(100% - 250px);
   padding-top: 65px;
   margin-left: 250px;
@@ -115,6 +116,8 @@
   -webkit-transition: all 250ms ease-in-out;
   -moz-transition: all 250ms ease-in-out;
 }
+
+/* card */
 
 .card {
   background-color: var(--secondary2);
@@ -153,7 +156,7 @@
 .card .card-header .profile {
   float: left;
   padding: 7px 10px;
-  width: calc(100% - 160px);
+  width: calc(100% - 170px);
 }
 
 .card .card-header .profile-img {
@@ -184,6 +187,35 @@
   padding: 0;
 }
 
+/* popup */
+
+.popup {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 0;
+  background-color: rgba(0,0,0,.3);
+  transition: opacity 250ms ease-in-out;
+  -moz-transition: opacity 250ms ease-in-out;
+  -webkit-transition: opacity 250ms ease-in-out;
+}
+
+.popup.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.popup .popup-area {
+  width: 80%;
+  margin: 80px auto 0 auto;
+  background-color: black;
+  height: 80%;
+}
+
+/* media settings */
+
 @media screen and (max-width: 1080px) {
 
   .card {
@@ -197,6 +229,10 @@
     left: -250px;
   }
 
+  .menu.opened {
+    left: 0px;
+  }
+
   .menu-btn {
     margin: 15px 20px 15px 0px;
     font-size: 25px;
@@ -205,5 +241,9 @@
   .content {
     width: 100%;
     margin: 0;
+  }
+
+  .content.opened {
+    transform: translateX(250px);
   }
 }
